@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(rgba(10, 2, 28, 0.6), rgba(10, 6, 19, 3)),url(arka.jpg);
+ 
+    
+}
+
+header {
+    
+    height: 50px;
+    width: 100%;
+    top: -2px;
+    position: relative;
+
+}
+
+.sekme {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 25px;
+    margin-left: 30px;
+}
+.uye {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    margin-right: 20px;
+    display: flex;
+    gap: 5px;
+}
+.uye img{
+    width: 25px;
+}
+.uye p{
+    text-align: center;
+}
+.container{
+    width: 550px;
+    height: 750px;
+    background-color:linear-gradient(rgb(8 19 41), rgb(8 19 41));
+    margin:auto;
+    padding: 5rem;
+    text-align: center;
+    color: #fff;
+}
+.check{
+    display: flex;
+}
+.form-input{
+    width: 100%;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(242, 241, 241);
+    outline: none;
+    background-color: rgb(253, 253, 253);
+    font-size: 15px;
+}
+.container h3{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.btn{
+    border: 1px solid blue;
+    background-color: blue;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: aqua;
+    transition: 0.5s;
+    border:1px solid aqua;
+}
+
+.submit{
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn2{
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+
+    
+
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.btn2 img{
+    width: 20px;
+}
