@@ -206,10 +206,13 @@ header {
 }
 
 @media (max-width: 978px) {
-.ana{
-    display: none;
-    background:linear-gradient(rgba(10, 2, 28, 0.6), rgba(10, 6, 19, 3)), url(arka.jpg);
+
+.kayit2{
+    display:block;
     
+}
+.kayit >p , .uzanti{
+    display: none;
 }
 .explore {
     width: 400px;
@@ -218,6 +221,21 @@ header {
     flex-direction: column;
     gap: 20px;
     margin-top: 0;
+}
+.col{
+    display: none;
+}
+.films ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main2{
+    margin-top: 100%;
+}
+}
+@media (max-width: 500px){
+    .main2{
+    margin-top:170% ;
 }
 }
 

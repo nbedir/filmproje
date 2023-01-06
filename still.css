@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:rgb(14, 14, 37);
+ 
+    
+}
+
+header {
+    
+    height: 50px;
+    width: 100%;
+    top: -2px;
+    position: relative;
+
+}
+
+.sekme {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 25px;
+    margin-left: 30px;
+}
+.uye {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    margin-right: 20px;
+    display: flex;
+    gap: 5px;
+}
+.uye img{
+    width: 25px;
+}
+.uye p{
+    text-align: center;
+}
+.container {
+    
+    font-family: sans-serif;
+    margin-top: 2%;
+}
+.container h2{
+    color: rgb(30, 30, 99);
+    margin: 2%;
+
+}
+.container .p{
+    background-color: rgb(59, 59, 122);
+    margin: 2%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+@media (max-width:768px){
+    .uye{
+        display: none;
+    }
+    .sekme .logo{
+        margin-left: 300%;
+    }
+    .container{
+        margin: 10%;
+    }
+    
+}
