@@ -2,6 +2,6 @@
 
 <p>film sitesi içinde kayıt ol, giriş yap,iletişim izimleri, üyelik sözleşmesi sayfaları düzenlendi.</p>
 
-![](ekran.gif)
+![](images/ekran.gif)
 
 
